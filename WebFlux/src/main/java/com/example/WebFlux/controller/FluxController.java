@@ -21,6 +21,7 @@ public class FluxController {
 	//@RequestMapping(method = RequestMethod.GET, produces = MediaType.TEXT_EVENT_STREAM_VALUE)
 		@GetMapping(value="/fluxDetails",produces = MediaType.TEXT_EVENT_STREAM_VALUE)
 		public Flux<Department>getDetails(){
+			System.out.println("for testing");
 			return null;
 			//List<Department ob>=   service.findAll();
 	
